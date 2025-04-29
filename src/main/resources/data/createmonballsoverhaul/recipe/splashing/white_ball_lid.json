@@ -1,0 +1,16 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createmonballsoverhaul:half_white_apricorn"
+    }
+  ],
+  "results": [
+    {
+      "id": "createmonballsoverhaul:white_ball_lid"
+    },
+    {
+      "id": "minecraft:white_dye"
+    }
+  ]
+}

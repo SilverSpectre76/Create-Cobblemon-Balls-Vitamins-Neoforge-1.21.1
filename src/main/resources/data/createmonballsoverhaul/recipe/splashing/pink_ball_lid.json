@@ -1,0 +1,16 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createmonballsoverhaul:half_pink_apricorn"
+    }
+  ],
+  "results": [
+    {
+      "id": "createmonballsoverhaul:pink_ball_lid"
+    },
+    {
+      "id": "minecraft:pink_dye"
+    }
+  ]
+}

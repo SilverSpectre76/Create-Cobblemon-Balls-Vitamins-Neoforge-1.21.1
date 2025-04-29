@@ -1,0 +1,16 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createmonballsoverhaul:half_green_apricorn"
+    }
+  ],
+  "results": [
+    {
+      "id": "createmonballsoverhaul:green_ball_lid"
+    },
+    {
+      "id": "minecraft:green_dye"
+    }
+  ]
+}

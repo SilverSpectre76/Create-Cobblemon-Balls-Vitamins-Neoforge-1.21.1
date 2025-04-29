@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "c:plates/obsidian"
+    },
+    {
+      "item": "createmonballsoverhaul:apricorn_punch"
+    }
+  ],
+  "keep_held_item": true,
+  "results": [
+    {
+      "id": "createmonballsoverhaul:sturdy_ball_base"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "c:nuggets/brass"
+    },
+    {
+      "item": "createmonballsoverhaul:apricorn_punch"
+    }
+  ],
+  "keep_held_item": true,
+  "results": [
+    {
+      "id": "createmonballsoverhaul:brass_ball_base"
+    }
+  ]
+}

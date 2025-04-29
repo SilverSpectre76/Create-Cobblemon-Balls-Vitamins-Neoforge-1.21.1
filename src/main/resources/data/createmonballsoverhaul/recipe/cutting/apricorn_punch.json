@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "cobblemon:stripped_apricorn_wood"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "createmonballsoverhaul:apricorn_punch"
+    }
+  ]
+}

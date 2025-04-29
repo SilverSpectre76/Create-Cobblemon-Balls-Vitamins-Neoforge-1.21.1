@@ -1,0 +1,16 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createmonballsoverhaul:half_yellow_apricorn"
+    }
+  ],
+  "results": [
+    {
+      "id": "createmonballsoverhaul:yellow_ball_lid"
+    },
+    {
+      "id": "minecraft:yellow_dye"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createmonballsoverhaul:blank_ball_lid"
+    },
+    {
+      "tag": "c:dyes/blue"
+    }
+  ],
+  "results": [
+    {
+      "id": "createmonballsoverhaul:blue_ball_lid"
+    }
+  ]
+}

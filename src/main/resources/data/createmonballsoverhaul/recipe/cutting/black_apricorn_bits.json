@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createmonballsoverhaul:black_ball_lid"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "createmonballsoverhaul:black_apricorn_bits"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "createmonballsoverhaul:item/apricorn_parts/half_yellow_apricorn"
+  }
+}

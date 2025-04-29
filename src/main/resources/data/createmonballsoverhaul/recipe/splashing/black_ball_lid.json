@@ -1,0 +1,16 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createmonballsoverhaul:half_black_apricorn"
+    }
+  ],
+  "results": [
+    {
+      "id": "createmonballsoverhaul:black_ball_lid"
+    },
+    {
+      "id": "minecraft:black_dye"
+    }
+  ]
+}
