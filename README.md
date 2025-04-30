@@ -53,4 +53,4 @@ Add recipes for Ancient balls
 
 # Extra note
 
-Feel free to port this mod on other versions of minecraft/modloader if you want.
+It's my first mod and I made it on a whim so it's nowhere near perfect. Feel free to port this mod on other versions of minecraft/modloader if you want.
