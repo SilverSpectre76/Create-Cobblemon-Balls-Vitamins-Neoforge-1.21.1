@@ -39,3 +39,9 @@
 
 ---
 
+![Apicorn processing](/img/recipes/apricorn_processing.png)
+![Lids recipes for low tier](/img/recipes/lids_recipes_tier_1-2-3.png)
+![Lids recipes for high tier](/img/recipes/lids_recipes_tier_4-5.png)
+![Mechanism recipes](/img/recipes/mechanism_processing.png)
+![Balls recipes](/img/recipes/balls_recipes.png)
+
