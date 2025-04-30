@@ -23,7 +23,7 @@
 
 ---
 
-**Create: Cobblemon Balls Overhaul** is an addon made to balance all pokeball's craft from **Cobblemon** to match **Create** easy access to item used in **Cobblemon**'s recipes.
+**Create: Cobblemon Balls Overhaul** is an addon made to balance all pokeball's craft from **Cobblemon** to match **Create** easy access to items used in **Cobblemon**'s recipes.
 **CCBO** also add a new way to produce pokeball using **Create** machinery by processing apricorn and crafting every part of each pokeball in huge assembly line.
 
 
