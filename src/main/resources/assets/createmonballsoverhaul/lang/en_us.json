@@ -87,15 +87,13 @@
   "item.createmonballsoverhaul.sturdy_ball_mechanism": "Sturdy Ball Mechanism",
   "item.createmonballsoverhaul.unfinished_sturdy_ball_mechanism": "Unfinished Sturdy Ball Mechanism",
 
-  "item.createmonballsoverhaul.unfinished_red_ball": "Unfinished Red Ball",
-  "item.createmonballsoverhaul.unfinished_yellow_ball": "Unfinished Yellow Ball",
-  "item.createmonballsoverhaul.unfinished_green_ball": "Unfinished Green Ball",
-  "item.createmonballsoverhaul.unfinished_blue_ball": "Unfinished Blue Ball",
-  "item.createmonballsoverhaul.unfinished_pink_ball": "Unfinished Pink Ball",
-  "item.createmonballsoverhaul.unfinished_black_ball": "Unfinished Black Ball",
-  "item.createmonballsoverhaul.unfinished_white_ball": "Unfinished White Ball",
-  "item.createmonballsoverhaul.unfinished_cyan_ball": "Unfinished Cyan Ball",
-  "item.createmonballsoverhaul.unfinished_purple_ball": "Unfinished Purple Ball",
+  "item.createmonballsoverhaul.unfinished_poke_ball": "Unfinished Red Ball",
+  "item.createmonballsoverhaul.unfinished_citrine_ball": "Unfinished Yellow Ball",
+  "item.createmonballsoverhaul.unfinished_verdant_ball": "Unfinished Green Ball",
+  "item.createmonballsoverhaul.unfinished_azure_ball": "Unfinished Blue Ball",
+  "item.createmonballsoverhaul.unfinished_roseate_ball": "Unfinished Pink Ball",
+  "item.createmonballsoverhaul.unfinished_slate_ball": "Unfinished Black Ball",
+  "item.createmonballsoverhaul.unfinished_premier_ball": "Unfinished White Ball",
   "item.createmonballsoverhaul.unfinished_great_ball": "Unfinished Great Ball",
   "item.createmonballsoverhaul.unfinished_ultra_ball": "Unfinished Ultra Ball",
   "item.createmonballsoverhaul.unfinished_safari_ball": "Unfinished Safari Ball",
@@ -120,6 +118,7 @@
   "item.createmonballsoverhaul.unfinished_dream_ball": "Unfinished Dream Ball",
   "item.createmonballsoverhaul.unfinished_beast_ball": "Unfinished Beast Ball",
   "item.createmonballsoverhaul.unfinished_master_ball": "Unfinished Master Ball",
+  "item.createmonballsoverhaul.unfinished_cherish_ball": "Unfinished Cherish Ball",
 
 
 
