@@ -1,16 +1,11 @@
 package net.xkcinnay.createmonballsoverhaul.item;
 
 import com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem;
-import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.level.material.Fluid;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.xkcinnay.createmonballsoverhaul.CreateCobblemonBallsOverhaul;
-import net.xkcinnay.createmonballsoverhaul.fluid.ModFluids;
-
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CreateCobblemonBallsOverhaul.MOD_ID);
 
