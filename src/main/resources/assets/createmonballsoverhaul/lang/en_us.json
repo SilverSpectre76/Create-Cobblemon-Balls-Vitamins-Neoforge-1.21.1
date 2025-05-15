@@ -197,5 +197,7 @@
   "creativetab.createmonballsoverhaul.create_cobblemon_balls_overhaul_lids": "Balls Overhaul Lids",
 
   "tag.item.createmonballsoverhaul.spherical_shaped_items_for_lids": "Spherical Shaped Items for Lids",
-  "tag.item.createmonballsoverhaul.blastable_ball_lids": "Blastable Ball Lids"
+  "tag.item.createmonballsoverhaul.blastable_ball_lids": "Blastable Ball Lids",
+
+  "tooltip.createmonballsoverhaul.apricorn_punch.warning": "§c§lWARNING§r: obsolete item, please use §7Rubber Stamp (Lid)§r instead!"
 }

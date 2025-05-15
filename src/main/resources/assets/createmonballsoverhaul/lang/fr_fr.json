@@ -198,5 +198,7 @@
   "creativetab.createmonballsoverhaul.create_cobblemon_balls_overhaul_lids": "Coques de Balls Overhaul",
 
   "tag.item.createmonballsoverhaul.spherical_shaped_items_for_lids": "Objets Sphériques Pour Empreinte de Coque",
-  "tag.item.createmonballsoverhaul.blastable_ball_lids": "Coque de Ball Décolorable"
+  "tag.item.createmonballsoverhaul.blastable_ball_lids": "Coque de Ball Décolorable",
+
+  "tooltip.createmonballsoverhaul.apricorn_punch.warning": "§c§lATTENTION§r: L'objet est obsolète. Veuillez utiliser l'§7Estampe (Coque)§r à la place!"
 }

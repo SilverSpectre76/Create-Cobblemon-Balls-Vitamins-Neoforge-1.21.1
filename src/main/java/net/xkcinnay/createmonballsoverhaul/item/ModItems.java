@@ -1,11 +1,17 @@
 package net.xkcinnay.createmonballsoverhaul.item;
 
 import com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.xkcinnay.createmonballsoverhaul.CreateCobblemonBallsOverhaul;
+
+import java.util.List;
+
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CreateCobblemonBallsOverhaul.MOD_ID);
 
@@ -213,7 +219,13 @@ public class ModItems {
     public static final DeferredItem<Item> APRICORN_BALL_LID = ITEMS.register("apricorn_ball_lid",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> APRICORN_PUNCH = ITEMS.register( "apricorn_punch",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties())   {
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.createmonballsoverhaul.apricorn_punch.warning"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
     public static final DeferredItem<Item> RUBBER_STAMP_LID = ITEMS.register("rubber_stamp_lid",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STAMPED_COPPER_NUGGET_LID = ITEMS.register("stamped_copper_nugget_lid",
