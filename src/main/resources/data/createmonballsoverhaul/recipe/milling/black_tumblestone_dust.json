@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "cobblemon:black_tumblestone"
+    }
+  ],
+  "processing_time": 50,
+  "results": [
+    {
+      "count": 4,
+      "id": "createmonballsoverhaul:black_tumblestone_dust"
+    }
+  ]
+}

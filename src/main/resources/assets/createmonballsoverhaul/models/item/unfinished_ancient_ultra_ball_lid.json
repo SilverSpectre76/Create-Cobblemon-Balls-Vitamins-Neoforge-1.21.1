@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "createmonballsoverhaul:item/poke_ball_lids/unfinished_ancient_ultra_ball_lid"
+  }
+}

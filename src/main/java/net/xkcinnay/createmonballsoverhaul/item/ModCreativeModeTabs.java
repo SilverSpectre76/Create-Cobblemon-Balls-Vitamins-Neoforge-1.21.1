@@ -4,10 +4,13 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.xkcinnay.createmonballsoverhaul.CreateCobblemonBallsOverhaul;
+import net.xkcinnay.createmonballsoverhaul.fluid.ModFluids;
 
 import java.util.function.Supplier;
 
@@ -34,14 +37,31 @@ public class ModCreativeModeTabs {
                         output.accept((ModItems.BLACK_APRICORN_BITS));
                         output.accept((ModItems.WHITE_APRICORN_BITS));
                         output.accept(ModItems.APRICORN_PUNCH);
+                        output.accept((ModItems.RUBBER_STAMP_LID));
+                        output.accept((ModItems.STAMPED_COPPER_NUGGET_LID));
+                        output.accept((ModItems.STAMPED_IRON_NUGGET_LID));
+                        output.accept((ModItems.STAMPED_ZINC_NUGGET_LID));
+                        output.accept((ModItems.STAMPED_BRASS_NUGGET_LID));
+                        output.accept((ModItems.STAMPED_STURDY_SHEET_LID));
+                        output.accept((ModItems.STAMPED_STRIPPED_APRICORN_LOG_LID));
                         output.accept(ModItems.COPPER_BALL_BASE);
                         output.accept((ModItems.COPPER_BALL_MECHANISM));
+                        output.accept((ModItems.COPPER_ANCIENT_BALL_MECHANISM));
                         output.accept(ModItems.IRON_BALL_BASE);
                         output.accept((ModItems.IRON_BALL_MECHANISM));
+                        output.accept((ModItems.IRON_ANCIENT_BALL_MECHANISM));
                         output.accept(ModItems.BRASS_BALL_BASE);
                         output.accept((ModItems.BRASS_BALL_MECHANISM));
+                        output.accept((ModItems.BRASS_ANCIENT_BALL_MECHANISM));
                         output.accept(ModItems.STURDY_BALL_BASE);
                         output.accept((ModItems.STURDY_BALL_MECHANISM));
+                        output.accept((ModItems.STURDY_ANCIENT_BALL_MECHANISM));
+                        output.accept((ModItems.TUMBLESTONE_DUST));
+                        output.accept((ModItems.SKY_TUMBLESTONE_DUST));
+                        output.accept((ModItems.BLACK_TUMBLESTONE_DUST));
+                        output.accept((ModFluids.STANDARD_TUMBLESTONE_COATING_BUCKET));
+                        output.accept((ModFluids.LIGHT_TUMBLESTONE_COATING_BUCKET));
+                        output.accept((ModFluids.DENSE_TUMBLESTONE_COATING_BUCKET));
                     }).build());
 
     public static final Supplier<CreativeModeTab> CREATE_COBBLEMON_BALLS_OVERHAUL_LIDS = CREATIVE_MODE_TAB.register( "create_cobblemon_balls_overhaul_lids_tab",
@@ -81,6 +101,27 @@ public class ModCreativeModeTabs {
                         output.accept((ModItems.BEAST_BALL_LID));
                         output.accept((ModItems.MASTER_BALL_LID));
                         output.accept((ModItems.CHERISH_BALL_LID));
+
+                        output.accept((ModItems.COATED_RED_BALL_LID));
+                        output.accept((ModItems.COATED_YELLOW_BALL_LID));
+                        output.accept((ModItems.COATED_GREEN_BALL_LID));
+                        output.accept((ModItems.COATED_BLUE_BALL_LID));
+                        output.accept((ModItems.COATED_PINK_BALL_LID));
+                        output.accept((ModItems.COATED_BLACK_BALL_LID));
+                        output.accept((ModItems.COATED_WHITE_BALL_LID));
+                        output.accept((ModItems.LIGHT_COATED_BLUE_BALL_LID));
+                        output.accept((ModItems.DENSE_COATED_BLACK_BALL_LID));
+                        output.accept((ModItems.ANCIENT_GREAT_BALL_LID));
+                        output.accept((ModItems.ANCIENT_ULTRA_BALL_LID));
+                        output.accept((ModItems.ANCIENT_FEATHER_BALL_LID));
+                        output.accept((ModItems.ANCIENT_WING_BALL_LID));
+                        output.accept((ModItems.ANCIENT_JET_BALL_LID));
+                        output.accept((ModItems.ANCIENT_HEAVY_BALL_LID));
+                        output.accept((ModItems.ANCIENT_LEADEN_BALL_LID));
+                        output.accept((ModItems.ANCIENT_GIGATON_BALL_LID));
+                        output.accept((ModItems.ANCIENT_ORIGIN_BALL_LID));
+
+                        output.accept((ModItems.APRICORN_BALL_LID));
                         output.accept((ModItems.BLANK_BALL_LID));
                     }).build());
 

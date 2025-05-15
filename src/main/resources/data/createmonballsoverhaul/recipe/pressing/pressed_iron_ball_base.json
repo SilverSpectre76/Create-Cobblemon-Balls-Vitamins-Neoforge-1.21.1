@@ -1,0 +1,18 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    [
+      {
+        "item": "createmonballsoverhaul:stamped_iron_nugget_lid"
+      },
+      {
+        "item": "createmonballsoverhaul:stamped_zinc_nugget_lid"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "id": "createmonballsoverhaul:iron_ball_base"
+    }
+  ]
+}

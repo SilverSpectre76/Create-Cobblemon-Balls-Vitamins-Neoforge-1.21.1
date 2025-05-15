@@ -1,6 +1,13 @@
 package net.xkcinnay.createmonballsoverhaul;
 
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
+import net.xkcinnay.createmonballsoverhaul.block.ModBlocks;
+import net.xkcinnay.createmonballsoverhaul.fluid.BaseFluidType;
+import net.xkcinnay.createmonballsoverhaul.fluid.ModFluids;
+import net.xkcinnay.createmonballsoverhaul.fluid.ModFluidTypes;
 import net.xkcinnay.createmonballsoverhaul.item.ModCreativeModeTabs;
 import net.xkcinnay.createmonballsoverhaul.item.ModItems;
 import org.slf4j.Logger;
@@ -40,6 +47,10 @@ public class CreateCobblemonBallsOverhaul {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        ModFluidTypes.register(modEventBus);
+        ModFluids.register(modEventBus);
 
 
         // Register the item to a creative tab
@@ -69,7 +80,24 @@ public class CreateCobblemonBallsOverhaul {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            event.enqueueWork(() -> {
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_STANDARD_TUMBLESTONE_COATING.get(), RenderType.translucent());
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_STANDARD_TUMBLESTONE_COATING.get(), RenderType.translucent());
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_LIGHT_TUMBLESTONE_COATING.get(), RenderType.translucent());
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_LIGHT_TUMBLESTONE_COATING.get(), RenderType.translucent());
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_DENSE_TUMBLESTONE_COATING.get(), RenderType.translucent());
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_DENSE_TUMBLESTONE_COATING.get(), RenderType.translucent());
+            });
+        }
 
+        @SubscribeEvent
+        public static void onClientExtensions(RegisterClientExtensionsEvent event) {
+            event.registerFluidType(((BaseFluidType) ModFluidTypes.STANDARD_TUMBLESTONE_COATING_FLUID_TYPE.get()).getClientFluidTypeExtensions(),
+                    ModFluidTypes.STANDARD_TUMBLESTONE_COATING_FLUID_TYPE.get());
+            event.registerFluidType(((BaseFluidType) ModFluidTypes.LIGHT_TUMBLESTONE_COATING_FLUID_TYPE.get()).getClientFluidTypeExtensions(),
+                    ModFluidTypes.LIGHT_TUMBLESTONE_COATING_FLUID_TYPE.get());
+            event.registerFluidType(((BaseFluidType) ModFluidTypes.DENSE_TUMBLESTONE_COATING_FLUID_TYPE.get()).getClientFluidTypeExtensions(),
+                    ModFluidTypes.DENSE_TUMBLESTONE_COATING_FLUID_TYPE.get());
         }
     }
 }

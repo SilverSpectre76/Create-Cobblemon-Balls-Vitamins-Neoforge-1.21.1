@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createmonballsoverhaul:sky_tumblestone_dust"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 200,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 200,
+      "id": "createmonballsoverhaul:source_light_tumblestone_coating"
+    }
+  ]
+}

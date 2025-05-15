@@ -1,0 +1,28 @@
+{
+  "values": [
+    "createmonballsoverhaul:half_red_apricorn",
+    "createmonballsoverhaul:half_yellow_apricorn",
+    "createmonballsoverhaul:half_green_apricorn",
+    "createmonballsoverhaul:half_blue_apricorn",
+    "createmonballsoverhaul:half_pink_apricorn",
+    "createmonballsoverhaul:half_black_apricorn",
+    "createmonballsoverhaul:half_white_apricorn",
+
+    "cobblemon:red_apricorn",
+    "cobblemon:yellow_apricorn",
+    "cobblemon:green_apricorn",
+    "cobblemon:blue_apricorn",
+    "cobblemon:pink_apricorn",
+    "cobblemon:black_apricorn",
+    "cobblemon:white_apricorn",
+    
+    "createmonballsoverhaul:red_ball_lid",
+    "createmonballsoverhaul:yellow_ball_lid",
+    "createmonballsoverhaul:green_ball_lid",
+    "createmonballsoverhaul:blue_ball_lid",
+    "createmonballsoverhaul:pink_ball_lid",
+    "createmonballsoverhaul:black_ball_lid",
+    "createmonballsoverhaul:white_ball_lid"
+
+  ]
+}

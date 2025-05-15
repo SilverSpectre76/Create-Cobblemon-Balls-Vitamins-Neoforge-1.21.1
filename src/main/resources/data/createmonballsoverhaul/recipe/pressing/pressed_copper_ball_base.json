@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createmonballsoverhaul:stamped_copper_nugget_lid"
+    }
+  ],
+  "results": [
+    {
+      "id": "createmonballsoverhaul:copper_ball_base"
+    }
+  ]
+}

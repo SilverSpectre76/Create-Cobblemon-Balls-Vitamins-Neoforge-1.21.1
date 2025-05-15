@@ -1,11 +1,15 @@
 package net.xkcinnay.createmonballsoverhaul.item;
 
 import com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem;
+import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.material.Fluid;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.xkcinnay.createmonballsoverhaul.CreateCobblemonBallsOverhaul;
+import net.xkcinnay.createmonballsoverhaul.fluid.ModFluids;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CreateCobblemonBallsOverhaul.MOD_ID);
@@ -154,9 +158,86 @@ public class ModItems {
     public static final DeferredItem<Item> CHERISH_BALL_LID = ITEMS.register("cherish_ball_lid",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> COATED_RED_BALL_LID = ITEMS.register("coated_red_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COATED_YELLOW_BALL_LID = ITEMS.register("coated_yellow_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COATED_GREEN_BALL_LID = ITEMS.register("coated_green_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COATED_BLUE_BALL_LID = ITEMS.register("coated_blue_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COATED_PINK_BALL_LID = ITEMS.register("coated_pink_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COATED_BLACK_BALL_LID = ITEMS.register("coated_black_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COATED_WHITE_BALL_LID = ITEMS.register("coated_white_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> LIGHT_COATED_BLUE_BALL_LID = ITEMS.register("light_coated_blue_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DENSE_COATED_BLACK_BALL_LID = ITEMS.register("dense_coated_black_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ANCIENT_GREAT_BALL_LID = ITEMS.register("ancient_great_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_GREAT_BALL_LID = ITEMS.register("unfinished_ancient_great_ball_lid",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<Item> ANCIENT_ULTRA_BALL_LID = ITEMS.register("ancient_ultra_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_ULTRA_BALL_LID = ITEMS.register("unfinished_ancient_ultra_ball_lid",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<Item> ANCIENT_FEATHER_BALL_LID = ITEMS.register("ancient_feather_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_FEATHER_BALL_LID = ITEMS.register("unfinished_ancient_feather_ball_lid",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<Item> ANCIENT_WING_BALL_LID = ITEMS.register("ancient_wing_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_WING_BALL_LID = ITEMS.register("unfinished_ancient_wing_ball_lid",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<Item> ANCIENT_JET_BALL_LID = ITEMS.register("ancient_jet_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_JET_BALL_LID = ITEMS.register("unfinished_ancient_jet_ball_lid",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<Item> ANCIENT_HEAVY_BALL_LID = ITEMS.register("ancient_heavy_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_HEAVY_BALL_LID = ITEMS.register("unfinished_ancient_heavy_ball_lid",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<Item> ANCIENT_LEADEN_BALL_LID = ITEMS.register("ancient_leaden_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_LEADEN_BALL_LID = ITEMS.register("unfinished_ancient_leaden_ball_lid",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<Item> ANCIENT_GIGATON_BALL_LID = ITEMS.register("ancient_gigaton_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_GIGATON_BALL_LID = ITEMS.register("unfinished_ancient_gigaton_ball_lid",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<Item> ANCIENT_ORIGIN_BALL_LID = ITEMS.register("ancient_origin_ball_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_ORIGIN_BALL_LID = ITEMS.register("unfinished_ancient_origin_ball_lid",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+
     public static final DeferredItem<Item> BLANK_BALL_LID = ITEMS.register("blank_ball_lid",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> APRICORN_BALL_LID = ITEMS.register("apricorn_ball_lid",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> APRICORN_PUNCH = ITEMS.register( "apricorn_punch",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RUBBER_STAMP_LID = ITEMS.register("rubber_stamp_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STAMPED_COPPER_NUGGET_LID = ITEMS.register("stamped_copper_nugget_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STAMPED_IRON_NUGGET_LID = ITEMS.register("stamped_iron_nugget_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STAMPED_ZINC_NUGGET_LID = ITEMS.register("stamped_zinc_nugget_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STAMPED_BRASS_NUGGET_LID = ITEMS.register("stamped_brass_nugget_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STAMPED_STURDY_SHEET_LID = ITEMS.register("stamped_sturdy_sheet_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STAMPED_STRIPPED_APRICORN_LOG_LID = ITEMS.register("stamped_stripped_apricorn_log_lid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TUMBLESTONE_DUST = ITEMS.register("tumblestone_dust",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SKY_TUMBLESTONE_DUST = ITEMS.register("sky_tumblestone_dust",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BLACK_TUMBLESTONE_DUST = ITEMS.register("black_tumblestone_dust",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> COPPER_BALL_BASE = ITEMS.register( "copper_ball_base",
@@ -165,11 +246,19 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_COPPER_BALL_MECHANISM = ITEMS.register("unfinished_copper_ball_mechanism",
             () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<Item> COPPER_ANCIENT_BALL_MECHANISM = ITEMS.register("copper_ancient_ball_mechanism",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_COPPER_ANCIENT_BALL_MECHANISM = ITEMS.register("unfinished_copper_ancient_ball_mechanism",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
     public static final DeferredItem<Item> IRON_BALL_BASE = ITEMS.register( "iron_ball_base",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> IRON_BALL_MECHANISM = ITEMS.register("iron_ball_mechanism",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_IRON_BALL_MECHANISM = ITEMS.register("unfinished_iron_ball_mechanism",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<Item> IRON_ANCIENT_BALL_MECHANISM = ITEMS.register("iron_ancient_ball_mechanism",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_IRON_ANCIENT_BALL_MECHANISM = ITEMS.register("unfinished_iron_ancient_ball_mechanism",
             () -> new SequencedAssemblyItem(new Item.Properties()));
     public static final DeferredItem<Item> BRASS_BALL_BASE = ITEMS.register( "brass_ball_base",
             () -> new Item(new Item.Properties()));
@@ -177,11 +266,19 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_BRASS_BALL_MECHANISM = ITEMS.register("unfinished_brass_ball_mechanism",
             () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<Item> BRASS_ANCIENT_BALL_MECHANISM = ITEMS.register("brass_ancient_ball_mechanism",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_BRASS_ANCIENT_BALL_MECHANISM = ITEMS.register("unfinished_brass_ancient_ball_mechanism",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
     public static final DeferredItem<Item> STURDY_BALL_BASE = ITEMS.register( "sturdy_ball_base",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STURDY_BALL_MECHANISM = ITEMS.register("sturdy_ball_mechanism",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_STURDY_BALL_MECHANISM = ITEMS.register("unfinished_sturdy_ball_mechanism",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<Item> STURDY_ANCIENT_BALL_MECHANISM = ITEMS.register("sturdy_ancient_ball_mechanism",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_STURDY_ANCIENT_BALL_MECHANISM = ITEMS.register("unfinished_sturdy_ancient_ball_mechanism",
             () -> new SequencedAssemblyItem(new Item.Properties()));
 
     public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_POKE_BALL= ITEMS.register("unfinished_poke_ball",
@@ -249,7 +346,38 @@ public class ModItems {
     public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_CHERISH_BALL= ITEMS.register("unfinished_cherish_ball",
             () -> new SequencedAssemblyItem(new Item.Properties()));
 
-
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_POKE_BALL= ITEMS.register("unfinished_ancient_poke_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_CITRINE_BALL= ITEMS.register("unfinished_ancient_citrine_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_VERDANT_BALL= ITEMS.register("unfinished_ancient_verdant_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_AZURE_BALL= ITEMS.register("unfinished_ancient_azure_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_ROSEATE_BALL= ITEMS.register("unfinished_ancient_roseate_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_SLATE_BALL= ITEMS.register("unfinished_ancient_slate_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_IVORY_BALL= ITEMS.register("unfinished_ancient_ivory_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_GREAT_BALL= ITEMS.register("unfinished_ancient_great_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_ULTRA_BALL= ITEMS.register("unfinished_ancient_ultra_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_FEATHER_BALL= ITEMS.register("unfinished_ancient_feather_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_WING_BALL= ITEMS.register("unfinished_ancient_wing_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_JET_BALL= ITEMS.register("unfinished_ancient_jet_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_HEAVY_BALL= ITEMS.register("unfinished_ancient_heavy_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_LEADEN_BALL= ITEMS.register("unfinished_ancient_leaden_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_GIGATON_BALL= ITEMS.register("unfinished_ancient_gigaton_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final DeferredItem<SequencedAssemblyItem> UNFINISHED_ANCIENT_ORIGIN_BALL= ITEMS.register("unfinished_ancient_origin_ball",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
 
 
 

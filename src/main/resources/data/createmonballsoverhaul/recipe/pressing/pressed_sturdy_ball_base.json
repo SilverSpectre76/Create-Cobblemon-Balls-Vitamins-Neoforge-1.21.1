@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+      {
+        "item": "createmonballsoverhaul:stamped_sturdy_sheet_lid"
+      }
+  ],
+  "results": [
+    {
+      "id": "createmonballsoverhaul:sturdy_ball_base"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createmonballsoverhaul:stamped_sturdy_sheet_lid"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:sturdy_sheet"
+  }
+}

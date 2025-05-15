@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createmonballsoverhaul:stamped_stripped_apricorn_log_lid"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemon:stripped_apricorn_log"
+  }
+}

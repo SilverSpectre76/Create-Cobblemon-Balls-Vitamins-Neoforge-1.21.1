@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "createmonballsoverhaul:item/tumblestone/standard_tumblestone_coating_bucket"
+  }
+}

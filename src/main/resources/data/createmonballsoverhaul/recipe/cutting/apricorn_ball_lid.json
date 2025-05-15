@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createmonballsoverhaul:stamped_stripped_apricorn_log_lid"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "count": 4,
+      "id": "createmonballsoverhaul:apricorn_ball_lid"
+    }
+  ]
+}

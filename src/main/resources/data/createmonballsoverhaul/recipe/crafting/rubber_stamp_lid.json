@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "K": {
+      "item": "minecraft:dried_kelp"
+    },
+    "D": {
+      "tag": "c:dyes"
+    },
+    "L": {
+      "tag": "createmonballsoverhaul:spherical_shaped_items_for_lids"
+    }
+  },
+  "pattern": [
+    "S  ",
+    "KL ",
+    "D  "
+  ],
+  "result": {
+    "id": "createmonballsoverhaul:rubber_stamp_lid"
+  }
+}
