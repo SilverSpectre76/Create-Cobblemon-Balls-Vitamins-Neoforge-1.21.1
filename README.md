@@ -31,25 +31,23 @@
 
 ---
 
-- Every modern pokeball's recipes give only 2 balls instead of 4 because it's easy to obtain materials with **Create**.
+- Every pokeball's recipes give only 2 balls instead of 4 because it's easy to obtain materials with **Create**.
 - Processing Apricorn with **Create** to craft base pokeball lids.
-- Sequenced assembly recipes to craft every modern pokeball's parts.
+- Sequenced assembly recipes to craft every pokeball's parts.
 
 ## Recipes
 
 ---
 
 ![Apicorn processing](/img/recipes/apricorn_processing.png)
+![Tumblestone processing](/img/recipes/tumblestone_processing.png)
+![Mechanism recipes](/img/recipes/mechanism_processing.png)
 ![Lids recipes for low tier](/img/recipes/lids_recipes_tier_1-2-3.png)
 ![Lids recipes for high tier](/img/recipes/lids_recipes_tier_4-5.png)
-![Mechanism recipes](/img/recipes/mechanism_processing.png)
 ![Balls recipes](/img/recipes/balls_recipes.png)
+![Ancient Lids recipes](/img/recipes/ancient_lids_recipes.png)
+![Ancient Balls recipes](/img/recipes/ancient_balls_recipes.png)
 
-##To-Do
-
----
-
-Add recipes for Ancient balls
 
 # Extra note
 
