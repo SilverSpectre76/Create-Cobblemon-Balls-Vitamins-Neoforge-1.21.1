@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "cobblemon:medicinal_leek"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "cobblemon:qualot_berry"
+    },
+    {
+      "item": "cobblemon:blue_mint_leaf"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid_tag": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "cobblemon:iron"
+    }
+  ]
+}

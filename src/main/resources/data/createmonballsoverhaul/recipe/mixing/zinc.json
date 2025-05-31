@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "cobblemon:medicinal_leek"
+    },
+    {
+      "tag": "cobblemon:zinc_ingredients"
+    },
+    {
+      "item": "cobblemon:grepa_berry"
+    },
+    {
+      "item": "cobblemon:pink_mint_leaf"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid_tag": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "cobblemon:zinc"
+    }
+  ]
+}

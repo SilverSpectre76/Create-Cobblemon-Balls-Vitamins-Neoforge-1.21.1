@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "cobblemon:pp_up"
+    },
+    {
+      "item": "cobblemon:pep-up_flower"
+    },
+    {
+      "item": "cobblemon:hopo_berry"
+    },
+    {
+      "item": "cobblemon:vivichoke"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid_tag": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "cobblemon:pp_max"
+    }
+  ]
+}

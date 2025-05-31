@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "cobblemon:medicinal_leek"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "cobblemon:hondew_berry"
+    },
+    {
+      "item": "cobblemon:cyan_mint_leaf"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid_tag": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "cobblemon:calcium"
+    }
+  ]
+}

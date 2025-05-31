@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "cobblemon:medicinal_leek"
+    },
+    {
+      "tag": "cobblemon:protein_ingredients"
+    },
+    {
+      "item": "cobblemon:kelpsy"
+    },
+    {
+      "item": "cobblemon:red_mint_leaf"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid_tag": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "cobblemon:protein"
+    }
+  ]
+}
