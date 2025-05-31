@@ -24,7 +24,8 @@
 ---
 
 **Create: Cobblemon Balls Overhaul** is an addon made to balance all pokeball's craft from **Cobblemon** to match **Create** easy access to items used in **Cobblemon**'s recipes.
-**CCBO** also add a new way to produce pokeball using **Create** machinery by processing apricorn and crafting every part of each pokeball in huge assembly line.
+**CCBO** also add a new way to produce pokeball using **Create** machinery by processing apricorn and crafting every part of each pokeball in huge assembly line. Furthermore, I
+have also added mixing recipes for the vitamins, as well as shapeless recipes for the EV feathers, which are currently uncraftable in Cobblemon 1.6.1.
 
 
 ## Feature
@@ -34,6 +35,8 @@
 - Every pokeball's recipes give only 2 balls instead of 4 because it's easy to obtain materials with **Create**.
 - Processing Apricorn with **Create** to craft base pokeball lids.
 - Sequenced assembly recipes to craft every pokeball's parts.
+- Mixing recipes for all EV-raising vitamins.
+- Crafting recipes for EV-raising feathers.
 
 ## Recipes
 
